@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 3vw;
+    z-index: 99;
+}
+
+.logo__main {
+    font-size: 45px;
+    font-family: "Helvetica";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-right: 4vw;
+}
+
+.hamburger__menu {
+    background: none;
+    border: none;
+    span {
+        display: block;
+        background: #000;
+        height: 2px;
+        &:first-child {
+            width: 18px;
+            margin-bottom: 8px;
+        }
+        &:last-child {
+            width: 40px;
+        }
+    }
+}
+
+.search__icon {
+    margin-left: auto;
+}
+  

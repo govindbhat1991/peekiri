@@ -1,0 +1,17 @@
+<nav class="sidebar__menu" [@collapse]="collapse">
+  <ul class="sidebar__ul">
+    <li *ngFor="let menu of menu$" [class.dropdown__li]="menu.items">
+      <a routerLink="">{{ menu.label }}</a>
+      <ul class="dropdown__ul">
+        <li *ngFor="let levelone of menu.items" [class.dropdown__li]="levelone.items">
+          <a routerLink="listing/:id">{{ levelone.label }}</a>
+          <ul class="dropdown__ul">
+            <li *ngFor="let leveltwo of levelone.items">
+              <a routerLink="listing/:id">{{ leveltwo.label }}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

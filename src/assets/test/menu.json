@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "label": "Male",
+    "link": "",
+    "items": [
+      {
+        "id": 11,
+        "label": "Leisure Time",
+        "link": "",
+        "items": [
+            {
+                "id": 111,
+                "label": "Shoes",
+                "link": ""
+            },
+            {
+                "id": 112,
+                "label": "Trousers",
+                "link": ""
+            },
+            {
+                "id": 113,
+                "label": "Jacket",
+                "link": ""
+            }
+        ]
+      },
+      {
+        "id": 12,
+        "label": "Run",
+        "link": "",
+        "items": [
+            {
+                "id": 121,
+                "label": "Shoes",
+                "link": ""
+            },
+            {
+                "id": 122,
+                "label": "Trousers",
+                "link": ""
+            },
+            {
+                "id": 123,
+                "label": "Jacket",
+                "link": ""
+            },
+            {
+                "id": 124,
+                "label": "Shorts",
+                "link": ""
+            },
+            {
+                "id": 125,
+                "label": "Socks",
+                "link": ""
+            },
+            {
+                "id": 126,
+                "label": "Parts",
+                "link": ""
+            },
+            {
+                "id": 127,
+                "label": "Boots",
+                "link": ""
+            },
+        ]
+      },
+      {
+        "id": 13,
+        "label": "Football",
+        "link": ""
+      },
+      {
+        "id": 14,
+        "label": "Basketball",
+        "link": "/item-1-2"
+      },
+      {
+        "id": 15,
+        "label": "Rugby",
+        "link": ""
+      },
+      {
+        "id": 16,
+        "label": "Bodybuilding",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "label": "Female",
+    "link": "/item-2"
+  },
+  {
+    "id": 3,
+    "label": "Boy",
+    "link": "/item-2"
+  },
+  {
+    "id": 4,
+    "label": "Girl",
+    "link": "/item-2"
+  }
+]
